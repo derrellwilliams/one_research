@@ -1,0 +1,25 @@
+/* Wide Mobile Layout: 480px
+Gutters: 24px
+Outer margins: 26px
+------------------------------------------------------------
+*/
+
+/***Home & Nav***/
+@media only screen and (min-width: 480px) and (max-width: 775px) {
+	
+
+	#topbar { height:38px; position: relative;  z-index:100000; width:100%; background-color: rgba(0,0,51, 1);}
+	ul#nav {margin: 0px auto;  text-align:left; min-width:660px; padding-top: 10px;}
+
+
+}
+
+
+
+
+@media only screen and (max-width: 479px) {
+	
+
+
+
+}

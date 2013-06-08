@@ -1,0 +1,163 @@
+/* Selection colours */
+::selection 	 	{background: #9ff3ff;}
+::-moz-selection 	{background: #9ff3ff;}
+img::selection 		{background: transparent;}
+img::-moz-selection	{background: transparent;}
+body {-webkit-tap-highlight-color: #9ff3ff;}
+
+/* Universal Styles */
+img {max-width: 100%;}
+
+body{margin:0; padding:0; background-color: #e6e6e6; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */}
+
+/* Fonts
+font-family:'Kepler W01 It';
+font-family:'Kepler W03 It Disp';
+font-family:'Kepler W01 Lt';
+font-family:'Kepler W01 Lt It';
+font-family:'Kepler W01 Regular';
+
+Dark Blue #000033
+rgba(0, 0, 51, 0.9)
+ */
+
+/* Typography */
+h1 {color:#fff; font-family:'Kepler W01 Lt It',georgia,'times new roman'; font-size:4.25em; font-weight:200; color:#fff line-height:43px;}
+h2 {ont-family:'Century Gothic W01'; font-weight:200; font-size:1.71em; color:#fff; line-height:1.51em; letter-spacing:1px;}
+h3 {ont-family:'Century Gothic W01'; font-size:1.1875em; font-weight:200; letter-spacing:.5px; color:#fff; }
+h4 {font-family:'Kepler W01 Regular', georgia,'times new roman'; font-weight:200; letter-spacing:.8px; line-height:1.3em; font-size:1.8em; color:#fff;}
+
+/* Hover Behaviors */
+a {text-decoration:none; font:#fff;}
+a:hover {color:#222222; opacity:.7; -webkit-transition: all .5s ease; -moz-transition: all .5s ease; -ms-transition: all .5s ease; -o-transition: all .5s ease transition: all .5s ease; text-decoration:none;}
+
+a, img {
+    border:0;
+}
+
+/* HEADER */
+#topbar { height:38px; position: fixed; top: 0; z-index:100000; width:100%; background-color: rgba(0,0,51, 1);}
+ul#nav {margin: 10px auto;  text-align:center; min-width:660px;}
+.twitter {float:right; margin-top:-29px; margin-right:10px; }
+#nav li{list-style:none; display: inline; list-style-type: none; padding-right: 30px; color:#fff; font-family:'Futura BT W01 Light', helvetica; font-size:14px; text-align:center; letter-spacing:.07em;}
+#nav li a {list-style:none; display: inline; list-style-type: none; color:#fff; font-family:'Century Gothic W01';, helvetica; font-size:14px;}
+#nav li a:hover {opacity:.7; -webkit-transition: all .5s ease; -moz-transition: all .5s ease; -ms-transition: all .5s ease; -o-transition: all .5s ease transition: all .5s ease; text-decoration:none;}
+
+/* Main Image Area */
+#backgroundimage{min-width: 660px;}
+#backgroundimage h1{text-align:center; margin:0 auto; position:absolute; top:40%; line-height:49px; left:0; right:0; font-size:45px;}
+.img{margin-top:-30px;}
+.logo {text-align:center; margin:0 auto; position:absolute; top:15%; left:0; right:0; min-width: 660px; }
+.logoshadow h2 a {color:#fff; min-width: 660px;}
+.logoshadow h2 a hover { opacity:.8; -webkit-transition: all .5s ease; -moz-transition: all .5s ease; -ms-transition: all .5s ease; -o-transition: all .5s ease transition: all .5s ease; text-decoration:none;}
+
+
+/* Homepage */
+.oklogo { margin: 0 auto; text-align: center; margin-top: -20px;}
+p.okcopy {text-align: center; color:#fff; font-family:'Century Gothic W01'; font-size: 1em; line-height: 1.5em; padding-bottom: 80px; margin-bottom: 10px;}
+p.okcopy a{text-decoration: underline; color: #fff; }
+
+/* About */
+#about { width:100%; margin:-10px auto; height:; background-color: #232326; border-top: 0px solid #020223; z-index:6; position:relative; clear:both; }
+.aboutcopy h2 {padding-top:60px; width:660px; margin:0 auto; font-size:1.7em; letter-spacing:.3px; font-family:'Futura BT W01 Light'; line-height:1.5em;}
+.aboutcopy h4 {padding-top: 30px; padding-bottom: 60px; margin:0 auto; width:660px; font-family:'Kepler W01 Lt', georgia,'times new roman'; font-weight:200; letter-spacing:.6px; line-height:1.6em; font-size:1.2em; color:#fff; }
+
+/**** Contact PAGE****/
+#aboutcontact { width:100%; margin:-10px auto; height:; background-color: #232326; border-top: 0px solid #020223; z-index:6; position:relative; clear:both; }
+#aboutcontact {height:470px; width:100%; margin:-20px auto; }
+.aboutcopycontact2 {margin:0 auto; float:left; padding-left:20px; }
+.aboutcopycontact2 h2 {display:inline-block; padding:0em 2em 0em 2em; margin:0 auto; padding-bottom:3em; padding-top:2em; font-family:'Kepler W01 Regular', georgia,'times new roman';font-size:1.2em; line-height:28px;}
+.aboutcopycontact {margin:0 auto; float:left; padding-left:20px; }
+.contactcontainer {width:960px; margin:0 auto;}
+.aboutcopycontact h2 {display:inline-block; padding:1em 2em 0em 2em; max-width:; margin:0 auto; padding-bottom:.5em; padding-top:2em; font-family:'Kepler W01 Regular', georgia,'times new roman';font-size:1.2em; line-height:28px;}
+.aboutcopycontact h2 span, .aboutcopycontact h2 span a, .email span{ font-family:'Century Gothic W01'; font-size:.9em; font-weight:500; letter-spacing:.5px; color:#fff; text-transform:uppercase; }
+.aboutcopycontact h2 a{color:#fff; text-decoration:underline;}
+
+.aboutcopycontact_travel {margin:0 auto; float:left; padding-left:20px; }
+.aboutcopycontact_travel h2 {display:inline-block; padding:1em 2em 0em 2em; max-width:226px; margin:0 auto; padding-bottom:.5em; padding-top:2em; font-family:'Kepler W01 Regular', georgia,'times new roman';font-size:1.2em; line-height:28px;}
+.aboutcopycontact_travel h2 span, .aboutcopycontact h2 span a, .email span{ font-family:'Century Gothic W01'; font-size:.9em; font-weight:500; letter-spacing:.5px; color:#fff; text-transform:uppercase; }
+.aboutcopycontact_travel h2 a{color:#fff; text-decoration:underline;}
+
+/* Footer */
+#footer{height:100px; background-color:#0e1518; width:100%; margin-top:0px; padding-top:2px; z-index:6; position:relative; bottom:0;}
+.leftfooter{text-align:center; margin-top:30px; margin-bottom:4px;}
+#footer h4 a, #footer h4 {text-align:center; padding-top:.05em;font-family:'Futura BT W01 Light', georgia,'times new roman'; font-weight:200; letter-spacing:.8px;  font-size:1.0625em; color:#fff; padding-right:10px; padding-left:10px; margin-top:0px; margin-bottom:10px;}
+#footer h5 a, #footer h5{text-align:center; font-family:'Kepler W01 Regular', georgia,'times new roman'; font-weight:200; letter-spacing:.5px;  font-size:.9em; color:#fff; padding-right: 10px; margin-top:0px;}
+#footer h5 a {text-decoration:underline;}
+
+
+/* Variations of same code for Other pages, all for logo */
+.logo h2 {font-size:3.6em; letter-spacing:.3px; font-family:'Century Gothic W01'; line-height:1.5em; color:rgba(0,0,51, 1);}
+.logo h2 a:hover {color:#222222; opacity:.7; -webkit-transition: all .5s ease; -moz-transition: all .5s ease; -ms-transition: all .5s ease; -o-transition: all .5s ease transition: all .5s ease; text-decoration:none;}
+.logo a{color:#222222}
+
+.logowhite {text-align:center; margin:0 auto; position:absolute; top:15%; left:0; right:0; min-width: 660px;}
+.logowhite h2 {font-size:3.6em; letter-spacing:.3px; font-family:'Century Gothic W01'; line-height:1.5em; color:#fff;}
+.logowhite h2 a {color:#fff;}
+.logowhite h2 a:hover {color:#fff; opacity:.5; -webkit-transition: all .5s ease; -moz-transition: all .5s ease; -ms-transition: all .5s ease; -o-transition: all .5s ease transition: all .5s ease; text-decoration:none;}
+
+.logowhite2 {text-align:center; margin:0 auto; position:absolute; top:63%; left:0; right:0; }
+.logowhite2 h2 {font-size:3.6em; letter-spacing:.3px; font-family:'Century Gothic W01'; line-height:1.5em; color:#fff; text-shadow: 0px 3px 3px rgba(0,0,0, .5);;
+        filter: dropshadow(color=#000000, offx=, offy=0);}
+.logowhite2 h2 a:hover {color:#fff; opacity:.7; -webkit-transition: all .5s ease; -moz-transition: all .5s ease; -ms-transition: all .5s ease; -o-transition: all .5s ease transition: all .5s ease; text-decoration:none;}
+
+
+.logoshadow {text-align:center; margin:0 auto; position:absolute; top:15%; left:0; right:0; }
+.logoshadow h2 {font-size:3.6em; letter-spacing:.3px; font-family:'Century Gothic W01'; line-height:1.5em; color:#fff; text-shadow: black 0.1em 0.1em 0.2em}
+.logoshadow h2 a:hover {color:#fff; opacity:.7; -webkit-transition: all .5s ease; -moz-transition: all .5s ease; -ms-transition: all .5s ease; -o-transition: all .5s ease transition: all .5s ease; text-decoration:none;}
+
+
+.logowhite {text-align:center; margin:0 auto; position:absolute; top:15%; left:0; right:0; }
+.logowhite h2 {font-size:3.6em; letter-spacing:.3px; font-family:'Century Gothic W01'; line-height:1.5em; color:#fff; }
+.logowhite h2 a:hover {color:#fff; opacity:.5; -webkit-transition: all .5s ease; -moz-transition: all .5s ease; -ms-transition: all .5s ease; -o-transition: all .5s ease transition: all .5s ease; text-decoration:none;}
+
+
+
+/* Wide Mobile Layout: 480px
+Gutters: 24px
+Outer margins: 26px
+------------------------------------------------------------
+*/
+
+/***Home & Nav***/
+
+@media only screen and (min-width: 180px) and (max-width: 884px) {
+
+	.contactcontainer { width: 96%; padding-left:40px;}
+	.aboutcopycontact_travel {margin:0 auto; float:none; display: block; padding-left:0px; }
+	.aboutcopycontact {padding: 0px; margin: 0;}
+	.aboutcopycontact h2 {padding:15px; margin:0; font-size:15px; line-height:20px;}
+	.aboutcopycontact_travel h2 {padding:15px; margin:0; font-size:15px; line-height:20px;}
+	.aboutcopycontact2 h2 {width: 500px; padding: 0px; margin: 0 auto; text-align: center; padding-left:80px; font-size:15px; line-height:20px;}
+
+
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 772px) {
+	#topbar { height:38px; position: relative;  z-index:100000; width:100%; background-color: rgba(0,0,51, 1);}
+	ul#nav {margin: 0px auto;  text-align:left; min-width:660px; padding-top: 10px;}
+	.twitter {margin-top:-19px;}
+
+
+	-webkit-overflow-scrolling: touch;
+
+
+}
+
+
+
+
+@media only screen and (max-width: 479px) {
+	.twitter {
+		display: none;
+	}
+
+	-webkit-overflow-scrolling: touch;
+
+
+
+
+}
+
+
